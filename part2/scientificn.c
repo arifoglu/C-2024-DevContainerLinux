@@ -3,7 +3,7 @@
 int main() {
 
     
-    //int people = 2.5e4 ; // 25000 
+    //int people = 2.5e4 ; // 24000 
     //printf("%i\n",people);
 
     printf("How many people are there : ");
