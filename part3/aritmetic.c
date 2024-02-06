@@ -20,10 +20,16 @@ int main() {
     int sum =( p1 + p2 + p3 + p4 + p5 );
     printf("%i\n%i\n%i\n%i\n%i\n%i\n",p1,p2,p3,p4,p5,p6);
 
-    int a = 2 ;
-    int b = 3 ;
-    int c = pow(2,3);
-    printf("%i\n",c);
-    
+    // to avoid error we have to run this code => gcc -o aritmetic aritmetic.c -lm 
+    int n1 = 5 ;
+    int n2 = pow(n1,2); // 25
+    int n3 = pow(n1,3); // 125
+    printf("%i\n",n3);
+
+    double m ;
+    for (m = 0 ; m < 7 ; m++){
+        printf("%.0f\n",pow(5,m));
+    }
+
     return 0;
 }
