@@ -23,7 +23,7 @@ int main() {
     }
     else
     {
-        printf("you loosed");
+        printf("you loosed\n");
     }
    
 
