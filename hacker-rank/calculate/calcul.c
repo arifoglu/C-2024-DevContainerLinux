@@ -5,9 +5,27 @@
 //Complete the following function.
 
 int find_nth_term(int n, int a, int b, int c) {
-  //Write your code here.
-  int sum ;
-  sum += a + b + 
+  int ar[n] ;
+
+  for(int i = 0 ; i < n ; i++){
+     if(i == 0)
+     {
+      ar[i] = a ;     
+     }
+     else if(i == 1)
+     {
+      ar[i] = b ;     
+     }
+     else if(i == 2)
+     {
+      ar[i] = c;
+     }
+     else
+     {
+      ar[i] = ar[i-1]+ar[i-2]+ar[i-3];
+     }
+  }
+   return ar[n-1];
 }
 
 int main() {

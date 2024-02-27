@@ -4,10 +4,7 @@ int main(){
     const int columns = 3;
     const int rows = 2;
 
-    int grades[rows][columns] = {
-        {11, 12, 13},
-        {22, 23, 24}
-    };
+    int grades[rows][columns] ;
 
     for(int i = 0 ; i < rows ; i++)
     {
