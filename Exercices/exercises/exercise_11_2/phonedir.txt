@@ -1,0 +1,5 @@
+Firstname    LastName   Tel number 
+ ali         bey       2333
+ veli         bey       1231123
+ swer         qay       1212
+ 
