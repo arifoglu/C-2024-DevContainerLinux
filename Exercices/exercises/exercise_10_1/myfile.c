@@ -29,12 +29,10 @@ int main(void){
     printf("File name is %s.%s \n",fileName,fileFormat);
     
     // to create a file path :
-    sprintf(filePath, "/workspaces/C-2024-DevContainerLinux/Exercices/exercises/exercise_9_3/%s.%s", fileName, fileFormat);
+    sprintf(filePath, "/workspaces/C-2024-DevContainerLinux/Exercices/exercises/exercise_10_1/%s.%s", fileName, fileFormat);
 
-    FILE *file = fopen(filePath, "w");
-    fprintf(file,"%s",filePath);
-
-    printf("%s saved ",filePath);
+    FILE *file = fopen(fileName, "w");
+    fprintf(file,"%s %s",firstName,lastName);
 
     fclose(file);
 
